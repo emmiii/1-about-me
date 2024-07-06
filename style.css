@@ -1,0 +1,82 @@
+/*
+I det här dokumentet hittar du all styling för det här projektet,
+i morgon ska vi lära oss att skriva CSS.
+*/
+
+/* Här är styling som gäller för hela sidan */
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, "sans serif";
+  color: black;
+  margin: 0;
+}
+
+/* Här finns all styling för LinkedIn-knappen */
+.connect-button {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* Här är styling som gäller för alla rubriker och texter */
+h1 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+
+/* Här är styling för about-me sektionen */
+.about-me {
+  background-color:lightgreen;
+  padding: 100px 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Här är styling för bilden som ligger i about-me sektionen */
+.about-me img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Här är styling för greatness sektionen */
+.greatness {
+  padding: 50px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Här är styling för footern på sidan */
+footer {
+  background-color: grey;
+  padding: 1px
+}
+
+.footer {
+  font-size: x-small;
+  color: white;
+  text-align-last: center;
+}
